@@ -29,7 +29,7 @@ public class ServerClientThread extends Thread {
         }catch(Exception ex){
             System.out.println(ex);
         }finally{
-            System.out.println("Client -" + clientNo + " exit!! ");
+            System.out.println("Клиент -" + clientNo + " вышел!! ");
         }
     }
 }
